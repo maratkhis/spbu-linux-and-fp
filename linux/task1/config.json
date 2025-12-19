@@ -1,0 +1,7 @@
+{
+    "source_dir": "important_data",
+    "backup_dir": "backups",
+    "backup_interval_minutes": 0.5,
+    "log_file": "daemon.log",
+    "pid_file": "daemon.pid"
+}

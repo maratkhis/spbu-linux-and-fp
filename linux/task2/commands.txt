@@ -1,0 +1,2 @@
+sudo python3 ddos.py --iface wlp61s0 --target 192.168.1.50 --count 20 --port 55555
+sudo python3 udp_burst.py

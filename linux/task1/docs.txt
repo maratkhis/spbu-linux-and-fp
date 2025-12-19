@@ -1,0 +1,23 @@
+# Демон резервного копирования
+
+## Описание
+Простой демон для автоматического резервного копирования данных.
+
+## Файлы
+- `daemon.py` - основной демон
+- `manager.py` - утилита управления
+- `config.json` - файл конфигурации
+
+## Быстрое управление (из папки task1)
+```bash
+# Запуск демона
+python3 backup_manager.py start
+
+# Остановка демона  
+python3 backup_manager.py stop
+
+# Проверка статуса
+python3 backup_manager.py status
+
+# Просмотр конфигурации
+python3 backup_manager.py config
